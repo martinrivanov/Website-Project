@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+
+body{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+}
+
+.line_first{
+    border-bottom-color: white;
+}
+
+.headings{
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+    list-style: inside;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.pages{
+    padding: 10px;
+    margin-right: 20px;
+    list-style-type: none;
+    transition: font-size 1s;
+}
+
+.pages:hover{
+    font-size: 40px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+hr{
+    width: 7%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+img{
+    width: 67.875px;
+}
+
+.sub-section{
+    display: flex;
+}
+
+article{
+    text-align: center;
+}
+
+article p{
+    width: 80%;
+    margin: auto;
+}
+
+section{
+    padding: 1px;
+    margin: 55px;
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+}
+
+.reasons{
+    transition: font-size 1s;
+}
+
+.reasons:hover{
+    font-size: 30px;
+}
+
+#description{
+    font-size: 22px;
+}
+
+#FirstHead{
+    letter-spacing: 5px;
+    transition: letter-spacing 1s;
+}
+
+#FirstHead:hover{
+    letter-spacing: 1px;
+    transition: letter-spacing 1s;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border-radius: 10px;
+    font-family: 'Rajdhani', sans-serif;
+}
